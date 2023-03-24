@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T20:59:51.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rZbZOQTCtteam42lKP8d" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T21:32:56.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3NRF2pRRfroUElbs_-iw" version="21.0.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2113" dy="222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -435,16 +435,16 @@
         <mxCell id="7Au9A9531bFNIheRCtOQ-14" value="        FDL_Company_Inter-sociétés" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
           <mxGeometry y="338" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7Au9A9531bFNIheRCtOQ-16" value="        FSL_DateExpedition_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
+        <mxCell id="7Au9A9531bFNIheRCtOQ-16" value="        FDL_DateExpedition_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
           <mxGeometry y="364" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7Au9A9531bFNIheRCtOQ-17" value="        FSL_DateLivratisonDemandée_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
+        <mxCell id="7Au9A9531bFNIheRCtOQ-17" value="        FDL_DateLivratison_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
           <mxGeometry y="390" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7Au9A9531bFNIheRCtOQ-18" value="        FSL_StockItem_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
           <mxGeometry y="416" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7Au9A9531bFNIheRCtOQ-19" value="        FSL_DeliveryMethod_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
+        <mxCell id="7Au9A9531bFNIheRCtOQ-19" value="        FDL_DeliveryMethod_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
           <mxGeometry y="442" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7Au9A9531bFNIheRCtOQ-20" value="        FSL_OrderType_Key" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="7Au9A9531bFNIheRCtOQ-1">
