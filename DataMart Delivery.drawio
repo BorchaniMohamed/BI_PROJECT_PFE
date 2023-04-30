@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-30T19:21:03.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dmiEmhxe5m6RWjlLqmSZ" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T20:04:30.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0RFxNkC1bzkIcBiLhqpU" version="21.2.3" type="github">
   <diagram name="Page-1" id="ZgQyZG9NzWmbTlg7LCCB">
-    <mxGraphModel dx="300" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,44 +42,41 @@
         <mxCell id="QGiz-dgJAuQ3S3tsfowD-12" value="         FDL_DeliveryCountryKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="286" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-13" value="         FDL_InvoiceCountryKey" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-14" value="         FDL_DeliveryDateKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="312" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-14" value="         FDL_DeliveryDateKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-15" value="         FDL_ShipmentDateKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="338" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-15" value="         FDL_ShipmentDateKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-16" value="         FDL_OriginSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="364" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-16" value="         FDL_OriginSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-17" value="         FDL_SalesSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="390" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-17" value="         FDL_SalesSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-18" value="         FDL_ShippingSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="416" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-18" value="         FDL_ShippingSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-19" value="         FDL_ReceptionSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="442" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-19" value="         FDL_ReceptionSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-20" value="         FDL_CompanyKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="468" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-20" value="         FDL_CompanyKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-21" value="         FDL_ReturnStatusKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="494" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-21" value="         FDL_ReturnStatusKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-22" value="         FDL_SalesPersonKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="520" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-22" value="         FDL_SalesPersonKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-23" value="         FDL_DeliveryMethodKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="546" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-23" value="         FDL_DeliveryMethodKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
+        <mxCell id="QGiz-dgJAuQ3S3tsfowD-24" value="         FDL_ItemKey " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
           <mxGeometry y="572" width="211" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QGiz-dgJAuQ3S3tsfowD-24" value="         FDL_ItemKey " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
-          <mxGeometry y="598" width="211" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="QGiz-dgJAuQ3S3tsfowD-25" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QGiz-dgJAuQ3S3tsfowD-1">
-          <mxGeometry y="624" width="211" height="58" as="geometry" />
+          <mxGeometry y="598" width="211" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
