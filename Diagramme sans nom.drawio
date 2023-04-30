@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-04-30T16:12:54.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="fbW80Ks_CERKCSWRmZA9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T16:19:04.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="duXwAlhtDJB4v1A9t2Js" version="21.2.3" type="github">
   <diagram name="Page-1" id="h5nciQh3TE7ta7tmnZzR">
-    <mxGraphModel>
+    <mxGraphModel dx="1100" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ngMEPLknOlef9Go4WVba-1" value="Fact.FIN_FactInvoice" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="200" height="708" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-2" value="PK ** FIN_Id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-3" value="         FIN_InvoiceId" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-4" value="         FIN_NetPriceTTC&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-5" value="         FIN_NetPriceHT&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-6" value="         FIN_CostPrice  &#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="130" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-7" value="         FIN_GrossPrice  &#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="156" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-8" value="         FIN_Margin " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="182" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-9" value="         FIN_QtyInvoice " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="208" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-10" value="         FIN_Line " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="234" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-11" value="         FIN_SequenceNumber " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="260" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-12" value="         FIN_InvoiceDate" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="286" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-13" value="         FIN_ItemKey " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="312" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-14" value="         FIN_GroupCustomerKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="338" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-15" value="         FIN_InvoiceCustomerKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="364" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-16" value="         FIN_ThirdPartyKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="390" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-17" value="         FIN_ShippingSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="416" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-18" value="         FIN_SalesSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="442" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-19" value="         FIN_OriginSiteKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="468" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-20" value="         FIN_CompanyKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="494" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-21" value="         FIN_CountryKey&#xa;  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="520" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-22" value="         FIN_InvoiceCategoryKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="546" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-23" value="         FIN_InvoiceStatusKey  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="572" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-24" value="        FIN_SalesPersonKey" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="598" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-25" value="        FIN_DeliveryMethodKey" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="624" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMEPLknOlef9Go4WVba-26" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ngMEPLknOlef9Go4WVba-1">
+          <mxGeometry y="650" width="200" height="58" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
