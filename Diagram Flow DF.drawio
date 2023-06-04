@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T15:53:32.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="4J5l0ZZgaxOZ51E97oyt" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T16:04:11.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="qlOJhxqA9HGSRRUGoAHK" version="21.2.3" type="github">
   <diagram name="Page-1" id="aVWFgwWJTtonSwgxcaKQ">
     <mxGraphModel dx="1100" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
         <mxCell id="OZ02rzAFalqwNskKFK5H-8" value="Sales Person Management System" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="760" y="430" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OZ02rzAFalqwNskKFK5H-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZ02rzAFalqwNskKFK5H-1" target="OZ02rzAFalqwNskKFK5H-3">
+        <mxCell id="OZ02rzAFalqwNskKFK5H-10" value="Order" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OZ02rzAFalqwNskKFK5H-1" target="OZ02rzAFalqwNskKFK5H-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="290" as="sourcePoint" />
             <mxPoint x="340" y="240" as="targetPoint" />
@@ -93,10 +93,20 @@
             <mxPoint x="360" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OZ02rzAFalqwNskKFK5H-23" value="Payement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OZ02rzAFalqwNskKFK5H-11">
+          <mxGeometry x="-0.1424" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OZ02rzAFalqwNskKFK5H-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OZ02rzAFalqwNskKFK5H-4" target="OZ02rzAFalqwNskKFK5H-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="310" as="sourcePoint" />
             <mxPoint x="530" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OZ02rzAFalqwNskKFK5H-22" value="Invoice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OZ02rzAFalqwNskKFK5H-12">
+          <mxGeometry x="-0.1881" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
